@@ -27,7 +27,7 @@
             </ul>
         </nav>
     </header>
-    <div class="hr"></div>
+    <hr>
     <main>
         <div class="contant">
             <h1>cocolate pizza</h1>
@@ -55,40 +55,40 @@
         <img src="img/list-bg.png" alt="" class="noteImg">
         <div>
             <!-- <img src="img/list-bg.png" alt="" class="noteImg"> -->
-            <form>
+            <form id="formy"> 
                 <div class="list">
-                    <input type="checkbox">
-                    <p>1 1/2 cups milk</p>
-                    <input type="checkbox">
-                    <p>1/2 cup mascarpone</p>
-                    <input type="checkbox">
-                    <p>1/2 tsp pink salt</p>
-                    <input type="checkbox">
-                    <p>1 lb Black Mission Figs</p>
-                    <input type="checkbox">
-                    <p>1/2 cup brown sugar</p>
-                    <input type="checkbox">
-                    <p>2-4 tbsp water</p>
+                    <input type="checkbox" id="chBx1" onclick=" checkboxManipulate()" >
+                    <p name="chBx1"> 1 1/2 cups milk</p>
+                    <input type="checkbox" id="chBx2" onclick=" checkboxManipulate()">
+                    <p name="chBx2">1/2 cup mascarpone</p>
+                    <input type="checkbox" id="chBx3" onclick=" checkboxManipulate(true)">
+                    <p name="chBx3">1/2 tsp pink salt</p>
+                    <input type="checkbox" id="chBx4" onclick=" checkboxManipulate()">
+                    <p name="chBx4">1 lb Black Mission Figs</p>
+                    <input type="checkbox" id="chBx5" onclick=" checkboxManipulate(true)">
+                    <p name="chBx5">1/2 cup brown sugar</p>
+                    <input type="checkbox" id="chBx6" onclick=" checkboxManipulate()">
+                    <p name="chBx6">2-4 tbsp water</p>
                 </div>
                 <div class="list1">
-                    <input type="checkbox">
-                    <p>1 1/2 cups heavy cream</p>
-                    <input type="checkbox">
-                    <p>1/3 granulated sugar</p>
-                    <input type="checkbox">
-                    <p>2 egg yolks</p>
-                    <input type="checkbox">
-                    <p>1 lemon, juiced</p>
-                    <input type="checkbox">
-                    <p>2 tbsp butter</p>
-                    <input type="checkbox">
-                    <p style="line-height: 1.7; margin-top: -48px;">1 cub honey roasted pecans, roughly chopped</p>
+                    <input type="checkbox" id="chBx7" onclick=" checkboxManipulate(value)" value="">
+                    <p name="chBx7">1 1/2 cups heavy cream</p>
+                    <input type="checkbox" id="chBx8" onclick=" checkboxManipulate()">
+                    <p name="chBx8">1/3 granulated sugar</p>
+                    <input type="checkbox" id="chBx9" onclick=" checkboxManipulate()">
+                    <p name="chBx9"> 2 egg yolks</p>
+                    <input type="checkbox" id="chBx10" onclick=" checkboxManipulate()">
+                    <p name="chBx10"> 1 lemon, juiced</p>
+                    <input type="checkbox" id="chBx11" onclick=" checkboxManipulate()">
+                    <p name="chBx11">2 tbsp butter</p>
+                    <input type="checkbox" id="chBx12" onclick=" checkboxManipulate()">
+                    <p name="chBx12"style="line-height: 1.7; margin-top: -48px;">1 cub honey roasted pecans, roughly chopped</p>
                 </div>
             </form>
         </div>
     </main>
     <footer>
-        <div class="hr"></div>
+        <hr>
         <div class="sec1">
             <img src="img/van-pic.png" alt="">
             <h1>Vanessa Stevenson</h1>
@@ -103,5 +103,5 @@
         </div>
     </footer>
 </body>
-
+<script src="js/app.js"></script>
 </html>
