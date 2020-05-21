@@ -11,9 +11,9 @@ function checkboxManipulate(form) {
              slectParagraph = document.getElementsByName(chBX);
 
             // var del = document.createElement('del');
-            console.log(slectParagraph);
+
             // slectParagraph[i].innerHTML = `<del> ${slectParagraph[i].textContent}<del>`
-            slectParagraph[i].innerHTML = `<del> ${slectParagraph[0].textContent}</del>`
+            slectParagraph[i].innerHTML = `<del> ${slectParagraph[i].textContent}</del>`
             // del.textContent = slectParagraph[i].innerHTML;
             // slectParagraph[i].textContent ='';
             // slectParagraph[i].appendChild(del);
